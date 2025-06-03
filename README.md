@@ -1,15 +1,20 @@
 # ATIVIDADE FINAL - ESTRUTURA DE DADOS EM ANALÍTICA
+
 ## Documentação do Projeto
 
 ### Equipe:
-- Nome: [Leonardo Nogueira Meireles]
-- Matrícula: [Inserir matrículas]
+- Nome: Leonardo Nogueira Meireles
+- Matrícula: 2316232
 
 ---
 
 ## Introdução
 
 Este projeto implementa todas as 8 partes da atividade final da disciplina Estrutura de Dados Analítica, demonstrando o domínio prático de estruturas fundamentais como listas, pilhas, filas, árvores binárias, funções recursivas e tabelas hash.
+
+## Confira
+repo contendo estrutura de dados e algoritimos em java:
+https://github.com/LeonardoMeireles55/Data-Structures-and-Algorithms-In-JAVA
 
 ## Desenvolvimento
 
@@ -93,7 +98,7 @@ def fibonacci(n): ...
 
 # Parte 3 - Árvore Binária
 class No: ...
-def inserir(raiz, valor): ...
+def inserir(no, valor): ...
 
 # Parte 4 - Pilha e Fila
 # Implementação com listas Python
@@ -112,36 +117,21 @@ class HashTable: ...
 # Lógica de decisão
 ```
 
-## Execução
-
-O programa foi testado e executa todas as partes corretamente:
-- Busca sequencial funcional
-- Recursão com resultados corretos
-- Árvore binária com inserção ordenada
-- Pilha e fila com comportamento LIFO/FIFO
-- Métodos de lista aplicados corretamente
-- Lista duplamente ligada com navegação bidirecional
-- Hash table com encadeamento funcionando
-- Condicionais com cálculos precisos
-
 ## Conclusão
 
 A atividade foi implementada seguindo as melhores práticas de programação:
 - **Simplicidade:** Código claro e conciso
-- **Organização:** Estrutura modular bem definida
 - **Funcionalidade:** Todas as 8 partes implementadas corretamente
-- **Tratamento de erros:** Exceções adequadamente tratadas
 
-O projeto demonstra domínio completo dos conceitos de estruturas de dados, desde operações básicas com listas até implementações complexas como árvores binárias e tabelas hash. As estruturas implementadas são fundamentais para desenvolvimento de sistemas eficientes em análise de dados e automação de processos.
 
 ## Reflexão Final
-
-Durante esta atividade, o maior desafio foi implementar a lista duplamente ligada mantendo as referências corretas entre os nós. Esses conceitos são fundamentais para resolver problemas reais como sistemas de cache (usando hash tables), histórico de navegação (usando pilhas), filas de processamento em sistemas distribuídos, e estruturas de índices em bancos de dados (usando árvores). Gostaria de aprofundar mais o estudo de árvores balanceadas (AVL, Red-Black) pois são cruciais para otimização de consultas. Esses conceitos se conectam diretamente com decisões de negócios ao permitir análises mais rápidas de grandes volumes de dados e automação de processos que requerem estruturas eficientes para tomada de decisões em tempo real.
-
+Estruturas de dados são fundamentais para a organização e manipulação eficiente de dados.
+Nesta atividade, exploramos diversas estruturas e técnicas, desde vetores e listas até árvores e tabelas hash.
+Cada uma tem suas características, vantagens e desvantagens, dependendo do contexto de uso.
+A prática com essas estruturas é essencial para desenvolver habilidades de programação e resolução de problemas.
+Exemplos como arvores utilizadas em bancos de dados, tabelas hash em caches e listas ligadas em sistemas operacionais mostram a importância dessas estruturas no mundo real.
 ---
 
-**Data de entrega:** 02/06/2025
 **Arquivos entregues:**
-- `atividade_final.py` (código principal com input do usuário)
-- `atividade_final_demo.py` (versão demonstração sem input)
-- `documentacao.md` (este documento)
+- `MAIN.py` (código principal com input do usuário)
+- `README.md` (este documento)
